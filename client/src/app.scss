@@ -142,11 +142,14 @@ main {
     &:link,
     &:visited {
       text-decoration: underline;
+      text-decoration-color: transparent;
+      transition: 200ms ease;
+      transition-property: color, background-color, text-decoration-color;
     }
 
     &:hover,
     &:focus {
-      text-decoration: none;
+      text-decoration-color: unset;
     }
   }
 }

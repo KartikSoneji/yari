@@ -36,6 +36,7 @@
     display: block;
     padding: 0.5rem 1rem;
     text-decoration: none;
+    transition: color 200ms ease;
 
     &:hover {
       color: var(--text-link);

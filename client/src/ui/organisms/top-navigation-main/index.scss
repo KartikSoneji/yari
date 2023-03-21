@@ -148,6 +148,8 @@
 
   .menu-toggle + .top-level-entry {
     display: none;
+    transition: 200ms ease;
+    transition-property: color, background-color;
   }
 
   @media screen and (min-width: $screen-lg) {

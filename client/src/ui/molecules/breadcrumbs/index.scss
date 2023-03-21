@@ -37,6 +37,9 @@
     a {
       align-items: center;
       display: flex;
+      text-decoration: underline;
+      text-decoration-color: transparent;
+      transition: text-decoration-color 200ms ease;
 
       &:link,
       &:visited {
@@ -44,7 +47,7 @@
       }
 
       &:hover {
-        text-decoration: underline;
+        text-decoration-color: unset;
       }
 
       &:focus-visible {

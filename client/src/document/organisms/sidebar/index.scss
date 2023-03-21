@@ -104,10 +104,13 @@
     display: inline-flex;
     hyphens: auto;
     padding: 0.25rem;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    transition: text-decoration-color 200ms ease;
 
     &:hover,
     &:focus {
-      text-decoration: underline;
+      text-decoration-color: unset;
     }
   }
 

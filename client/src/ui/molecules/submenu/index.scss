@@ -55,6 +55,8 @@
     display: flex;
     height: 100%;
     padding: 0.5rem;
+    transition: 200ms ease;
+    transition-property: color, background-color;
     width: 100%;
 
     li:last-child &:not(:focus) {
@@ -115,6 +117,7 @@
   height: 2rem;
   margin-right: 0.75rem;
   position: relative;
+  transition: background-color 200ms ease;
   width: 0.2rem;
 }
 

@@ -38,6 +38,7 @@ button,
   padding-left: var(--button-padding);
   padding-right: var(--button-padding);
   position: relative;
+  transition: background-color 200ms ease;
 }
 
 .button .icon {
